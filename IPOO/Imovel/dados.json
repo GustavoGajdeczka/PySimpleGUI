@@ -1,0 +1,19 @@
+{ 
+    "Apartamentos" : [
+        {
+        "endereco": "Rua01",
+        "andar": 2,
+        "valor mensal": 200.0
+        },
+        {
+        "endereco": "Rua02",
+        "andar": 3,
+        "valor mensal": 450.0
+        },
+        {
+        "endereco": "Rua03",
+        "andar": 6,
+        "valor mensal": 100.0
+        }
+    ]
+}

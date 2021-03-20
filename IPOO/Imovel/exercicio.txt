@@ -1,0 +1,22 @@
+Supondo um sistema parcial de aluguel de imóveis, crie uma classe chamada Imovel com os atributos fracamente privados 'endereco' e 'valor', e o 
+método público getEndereco(). Crie também uma classe Apartamento, que estende Imovel, com os atributos fortemente privados 'andar' e 'taxaCondominio', 
+e métodos públicos valorMensal (retorna aluguel + condomínio) e getAndar(). Um programa deve criar uma lista de apartamentos e listar os 
+endereços dos apartamentos no 2º andar ou superior com valor mensal máximo de R$1000,00. O usuário informa quantidade de apartamentos que  deseja 
+cadastrar, bem como endereço, aluguel, andar e taxa de condomínio de cada imóvel.
+
+Exemplo de execução:
+    Quantos apartamentos deseja cadastrar: 2
+    Dados do 1º imóvel:
+        Endereço do imóvel: Rua tal, 123
+        Valor do aluguel: 900.00
+        Andar do apartamento: 3
+        Taxa de condomínio: 220.00
+
+    Dados do 2º imóvel:
+        Endereço do imóvel: Rua outra, 234
+        Valor do aluguel: 800.00
+        Andar do apartamento: 4
+        Taxa de condomínio: 150.00
+
+Listagem dos apartamentos a partir do 2º andar e valor mensal até R$ 1000:
+Rua outra, 234, 4º andar, valor mensal: 950.00
